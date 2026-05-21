@@ -1,9 +1,9 @@
 # MC_Landing
 A frontend for small Minecraft servers. Includes configurable two-way shoutbox, space for a map plugins, and guides, easily configurable from a single file. Dedicated desktop and mobile views.
 ## Prerequisites
-A discord-compliant webhooks plugin, such as [Discord Chat Hook](https://modrinth.com/plugin/discordchathook) or [LittleHooks](https://modrinth.com/plugin/littlehooks) 
-Literally any map plugin
-RCON Configured for secure use in ```server.properties```
+1. A discord-compliant webhooks plugin, such as [Discord Chat Hook](https://modrinth.com/plugin/discordchathook) or [LittleHooks](https://modrinth.com/plugin/littlehooks) 
+2. Literally any map plugin
+3. RCON Configured for secure use in ```server.properties```
 ## Hosting
 
 ### Native
