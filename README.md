@@ -6,7 +6,9 @@ Literally any map plugin
 RCON Configured for secure use in ```server.properties```
 # Hosting
 On most distros, use of ```install.sh``` should work.
-```curl -sSL https://raw.githubusercontent.com/Siyanide2134/MC_Landing/main/install.sh | sudo bash```
+```
+curl -sSL https://raw.githubusercontent.com/Siyanide2134/MC_Landing/main/install.sh | sudo bash
+```
 Afterwards,
 ```
 sudo nano /path/to/config.php
