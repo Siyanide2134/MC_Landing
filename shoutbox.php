@@ -12,6 +12,11 @@ require_once 'config.php';
 $file = 'messages.txt';
 $expiry = 86400; // 24 Hours
 
+// Ensure messages.txt exists on first run
+if (!file_exists($file)) {
+    touch($file);
+}
+
 /**
  * 1. SERVER-SIDE DEVICE IDENTIFICATION (CANVAS SEED INTERACTION OR LAZY BANNED SWITCH)
  */
