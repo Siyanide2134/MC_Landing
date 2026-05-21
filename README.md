@@ -31,6 +31,7 @@ Launch
 ```docker compose up -d``` or ```podman-compose up -d```
 
 Set Runtime Permissions (If Chat Fails to Log)
+
 Because containers map file boundaries differently, ensure the container's internal web process can append data to your local directory storage:
 
 Docker:
