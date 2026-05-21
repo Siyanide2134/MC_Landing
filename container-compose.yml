@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  # The PHP processing engine container
+  php:
+    image: docker.io/library/php:8.2-fpm-alpine
+    volumes:
+      - .:/var/www/MC_Landing:rw,z
+
+  # The Nginx web server container
+  web:
+    image: docker.io/library/nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/MC_Landing:ro,z
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro,z
+    depends_on:
+      - php
