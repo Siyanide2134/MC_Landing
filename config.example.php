@@ -41,7 +41,7 @@ $config_dropdowns = [
     'title'   => 'Joining Guide',
 'type'    => 'guide',
 'content' => [
-    ['label' => 'Java Connection IP:', 'code' => '192.168.1.xx', 'img' => 'java_shot.jpg'],
+    ['label' => 'Java Connection IP:', 'code' => '192.168.1.xx', 'img' => 'java_shot.png'],
 ['label' => 'Bedrock Connection Info:', 'code' => '192.168.1.xx:19132', 'img' => 'bedrock_shot.png']
 ]
 ],
