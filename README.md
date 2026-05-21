@@ -16,7 +16,6 @@ Afterwards,
 sudo nano /path/to/config.php
 sudo systemctl restart nginx
 ```
-Here is the raw text layout using only standard newlines.
 
 ### Containers
 If you prefer containerized environments, a pre-configured multi-container compose block is available.
